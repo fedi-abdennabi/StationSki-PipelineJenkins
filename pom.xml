@@ -63,6 +63,17 @@
                     </excludes>
                 </configuration>
             </plugin>
+         <plugin>
+            <groupId>org.sonarsource.scanner.maven</groupId>
+            <artifactId>sonar-maven-plugin</artifactId>
+            <version>3.10.0.2594</version>
+            <configuration>
+                <!-- Add your SonarQube server URL -->
+                <sonarHostUrl>http://192.168.33.10:9000</sonarHostUrl>
+                <!-- Add the generated token -->
+                <sonar.login>sqa_8018258b76292416ed98d7f573b0d3d9576b15d5</sonar.login>
+            </configuration>
+        </plugin>
         </plugins>
     </build>
 
