@@ -57,7 +57,7 @@
             <version>3.10.0.2594</version>
             <configuration>
                 <sonarHostUrl>http://192.168.33.10:9000</sonarHostUrl>
-                <sonar.login>sqa_8018258b76292416ed98d7f573b0d3d9576b15d5</sonar.login>
+                <sonar.login>squ_5c4fce1bb49bd3588d61ed812c6c29f3f6a0568a</sonar.login>
             </configuration>
         </plugin>
     </plugins>
