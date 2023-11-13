@@ -57,11 +57,13 @@
             <version>3.10.0.2594</version>
             <configuration>
                 <sonarHostUrl>http://192.168.33.10:9000</sonarHostUrl>
-                <sonar.login>squ_5c4fce1bb49bd3588d61ed812c6c29f3f6a0568a</sonar.login>
+                <sonar.login>admin</sonar.login>
+                <sonar.password>f94047233</sonar.password>
             </configuration>
         </plugin>
     </plugins>
 </build>
+
 
 
 
