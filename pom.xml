@@ -49,7 +49,7 @@
 
     </dependencies>
 
-    <build>
+   <build>
     <plugins>
         <plugin>
             <groupId>org.sonarsource.scanner.maven</groupId>
@@ -57,11 +57,12 @@
             <version>3.10.0.2594</version>
             <configuration>
                 <sonarHostUrl>http://192.168.33.10:9000</sonarHostUrl>
-                <sonar.token>sqa_8018258b76292416ed98d7f573b0d3d9576b15d5</sonar.token>
+                <sonar.login>sqa_8018258b76292416ed98d7f573b0d3d9576b15d5</sonar.login>
             </configuration>
         </plugin>
     </plugins>
 </build>
+
 
 
 </project>
